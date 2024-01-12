@@ -44,7 +44,12 @@ public class BusinessTaxPayer extends TaxPayer {
 
 	// 사업소득자의 총비용을 주어진 값으로 변경한다
 	// 여기에 메소드를 입력하세요
+	public void setExpenses(int expenses) {
+		this.expenses = expenses;
+	}
 
 	// 사업소득자의 세금을 계산한다
 	// 여기에 메소드를 입력하세요
+	public 
+	
 }

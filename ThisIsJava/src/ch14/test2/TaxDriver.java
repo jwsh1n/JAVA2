@@ -23,4 +23,4 @@ public class TaxDriver {
 		// payer2의 세금을 계산하여 출력한다
 		// 여기에 코드를 입력하세요
 	}
-}
+}s
