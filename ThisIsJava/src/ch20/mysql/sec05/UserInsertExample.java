@@ -13,7 +13,7 @@ public class UserInsertExample {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 
 			// 연결하기
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/thisisjava", "java", "mysql");
+			conn = DriverManager.getConnection("jdbc:mysql://192.168.111.200:3306/thisisjava", "java", "mysql");
 
 			// 매개변수화된 SQL 문 작성
 			String sql = "" + "INSERT INTO users (userid, username, userpassword, userage, useremail) "
