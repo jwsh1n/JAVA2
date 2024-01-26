@@ -1,19 +1,17 @@
-package sec01.exam01_awt;
+package sec01.exam02_swing;
 
 import java.awt.BorderLayout;
-import java.awt.Button;
-import java.awt.Frame;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import javax.swing.JFrame;
+import javax.swing.JButton;
 
-public class App extends Frame {
+public class App extends JFrame {
 	public App() {
-		setTitle("AWT App");
+		setTitle("Swing App");
 
 		setSize(300, 100);
-
-		add(new Button("Ok"), BorderLayout.SOUTH);
-
+		getContentPane().add(new JButton("OK"), BorderLayout.SOUTH);
 		addWindowListener(new WindowAdapter() {
 			@Override
 			public void windowClosing(WindowEvent e) {
@@ -24,7 +22,9 @@ public class App extends Frame {
 
 	public static void main(String[] args) {
 		App app = new App();
+
 		app.setVisible(true);
+
 	}
 
 }
