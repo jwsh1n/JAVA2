@@ -16,7 +16,7 @@ public class JTabbedPaneExample extends JFrame {
 
 	public JTabbedPaneExample() {
 		this.setTitle("JTabbedPaneExample");
-		this.setSize(300, 200);
+		this.setSize(600, 400);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.getContentPane().add(getJTabbedPane(), BorderLayout.CENTER);
 	}
@@ -24,7 +24,7 @@ public class JTabbedPaneExample extends JFrame {
 	private JTabbedPane getJTabbedPane() {
 		if (jTabbdePane == null) {
 			jTabbdePane = new JTabbedPane();
-			jTabbdePane.setTabPlacement(JTabbedPane.LEFT);
+			jTabbdePane.setTabPlacement(JTabbedPane.RIGHT);
 			jTabbdePane.addTab("탭1", getTab1Panel());
 			jTabbdePane.addTab("탭2", getTab2Panel());
 		}
@@ -35,7 +35,7 @@ public class JTabbedPaneExample extends JFrame {
 		if (tab1Panel == null) {
 			tab1Panel = new JPanel();
 			JLabel jLabel = new JLabel();
-			jLabel.setIcon(new ImageIcon(getClass().getResource("duke1.gif")));
+			jLabel.setIcon(new ImageIcon(getClass().getResource("duke.gif")));
 			tab1Panel.add(jLabel);
 		}
 		return tab1Panel;
