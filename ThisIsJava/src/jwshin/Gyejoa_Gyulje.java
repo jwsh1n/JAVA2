@@ -208,7 +208,7 @@ public class Gyejoa_Gyulje extends JFrame {
 		separator.setBounds(403, 38, 170, 2);
 		contentPane.add(separator);
 
-		JLabel lblNewLabel_6 = new JLabel("상품가격");
+		JLabel lblNewLabel_6 = new JLabel("상품명");
 		lblNewLabel_6.setHorizontalAlignment(SwingConstants.LEFT);
 		lblNewLabel_6.setBackground(new Color(255, 255, 255));
 		lblNewLabel_6.setForeground(new Color(255, 255, 255));
@@ -216,7 +216,7 @@ public class Gyejoa_Gyulje extends JFrame {
 		lblNewLabel_6.setBounds(404, 50, 52, 15);
 		contentPane.add(lblNewLabel_6);
 
-		JLabel lblNewLabel_6_1 = new JLabel("할인가격");
+		JLabel lblNewLabel_6_1 = new JLabel("상품가격");
 		lblNewLabel_6_1.setHorizontalAlignment(SwingConstants.LEFT);
 		lblNewLabel_6_1.setBackground(new Color(255, 255, 255));
 		lblNewLabel_6_1.setForeground(new Color(255, 255, 255));
@@ -233,6 +233,7 @@ public class Gyejoa_Gyulje extends JFrame {
 		contentPane.add(lblNewLabel_6_2);
 
 		textField = new JTextField();
+		textField.setText("창원시외버스터미널");
 		textField.setEditable(false);
 		textField.setBackground(new Color(0, 128, 255));
 		textField.setForeground(new Color(255, 255, 255));
